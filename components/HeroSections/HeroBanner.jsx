@@ -7,7 +7,7 @@ import { BiArrowBack } from "react-icons/bi";
 
 const HeroBanner = () => {
     return (
-        <div className="relative text-white text-[20px] w-full mx-auto">
+        <div className="relative text-white text-[20px] w-full max-w-[1360px] mx-auto">
             <Carousel
                 autoPlay={true}
                 infiniteLoop={true}
@@ -52,6 +52,10 @@ const HeroBanner = () => {
                 </div>
 
                 <div>
+                    <img
+                        src="https://thumbs.dreamstime.com/z/indian-healthy-deep-fried-soya-chips-tea-time-snack-soya-stick-chips-snacks-105491481.jpg"
+                        className="aspect-[16/10] md:aspect-auto object-cover"
+                    />
                     <div className="px-[15px] md:px-[40px] py-[10px] md:py-[25px] font-oswald bg-white absolute bottom-[25px] md:bottom-[75px] left-0 text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90">
                         Product Name
                     </div>
