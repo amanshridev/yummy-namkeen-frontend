@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
 
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-inherit">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost btn-circle">
@@ -27,12 +27,12 @@ const Header = () => {
             <div className="navbar-end">
                 <button className="btn btn-ghost">
                     <div>
-                        <Icon icon="material-symbols:shopping-bag" color="#ffad01" className='w-6 h-6' />
+                        <Icon icon="material-symbols:shopping-bag" color="#ffad01" className='w-9  h-9' />
                     </div>
                 </button>
-                <button className="btn btn-ghost">
+                <button className="btn btn-ghost w-20">
                     <div className="indicator">
-                        <Icon icon="ic:round-account-circle" color="#fe9400"  className='w-6 h-6' />
+                        <Icon icon="ic:round-account-circle" color="#fe9400"  className='w-10 h-10' />
                         <span className="badge badge-xs badge-primary indicator-item"></span>
                     </div>
                 </button>
