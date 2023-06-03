@@ -4,6 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
+      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
       <body>
         <Main />
         <NextScript />
