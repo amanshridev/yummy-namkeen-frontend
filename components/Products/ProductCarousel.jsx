@@ -4,7 +4,7 @@ import { Carousel } from "react-responsive-carousel";
 
 const ProductDetailsCarousel = () => {
     return (
-        <div className="text-white text-[20px] w-full sticky top-[50px]">
+        <div className="text-white text-[20px] w-full max-w-[1360px] mx-auto sticky top-[50px]">
             <Carousel
                 infiniteLoop={true}
                 showIndicators={false}
