@@ -1,16 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Icon } from '@iconify/react';
 
 const Header = () => {
 
-    const [mobileMenu, setMobileMenu] = useState(false);
-    const [showCatMenu, setShowCatMenu] = useState(false);
-    const [show, setShow] = useState('tanslate-y-0');
-    const [lastScrollY, setLastScrollY] = useState(0);
-
     return (
 
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-inherit">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost btn-circle">
